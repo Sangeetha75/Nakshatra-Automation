@@ -1,0 +1,16 @@
+mqtt:
+  sensor:
+    - name: "Student Temperature"
+      state_topic: "home/sangeetha-2025/sensor"
+      value_template: "{{ value_json.temperature }}"
+      unit_of_measurement: "°C"
+
+    - name: "Student Humidity"
+      state_topic: "home/sangeetha-2025/sensor"
+      value_template: "{{ value_json.humidity }}"
+      unit_of_measurement: "%"
+
+    - name: "Student Light"
+      state_topic: "home/sangeetha-2025/sensor"
+      value_template: "{{ value_json.light }}"
+      unit_of_measurement: "lx"
