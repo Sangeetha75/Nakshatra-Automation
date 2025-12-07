@@ -24,7 +24,5 @@ This project demonstrates publishing temperature data to an MQTT broker using Py
 4. Configure Home Assistant to subscribe to MQTT topic: `home/sangeetha-2025/sensor`
 5. Observe live temperature values on the HA dashboard.
 
-## Notes
-- Topic is unique per student.
-- Video demonstration includes face verification, timestamp, HA dashboard, MQTT publish, and Python script execution.
+
 
