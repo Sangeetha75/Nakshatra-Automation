@@ -21,9 +21,10 @@ This project demonstrates publishing temperature data to an MQTT broker using Py
 1. Ensure Mosquitto broker is running.
 2. Update `mqtt_publish.py` with your register number.
 3. Run Python script: `python mqtt_publish.py`
-4. Configure Home Assistant to subscribe to MQTT topic: `home/akhilaboni-2025/sensor`
+4. Configure Home Assistant to subscribe to MQTT topic: `home/sangeetha-2025/sensor`
 5. Observe live temperature values on the HA dashboard.
 
 ## Notes
 - Topic is unique per student.
 - Video demonstration includes face verification, timestamp, HA dashboard, MQTT publish, and Python script execution.
+
