@@ -1,28 +1,50 @@
-# Home Assistant MQTT Sensor Integration
+# Nakshatra Automation – Home Assistant Assignment
+### **Student Name:** Sangeetha Kodadhala  
+### **Register Number:** 42732041  
+### **MQTT Topic Used:** `home/sangeetha-2025/sensor`
 
-## Student Details
-- **Name:** Sangeetha Kodadhala
-- **Register Number:** 42732041
-- **MQTT Topic Used:** home/sangeetha-2025/sensor
+---
 
-## Overview
-This project demonstrates publishing temperature data to an MQTT broker using Python and displaying it in Home Assistant.
+## 📌 Assignment Overview
+This project demonstrates integration between **Python → MQTT → Home Assistant**.  
+Sensor values are published using a Python script and displayed on the Home Assistant dashboard through MQTT sensors.
 
-## Sensor
-- Temperature: 25°C
+This repository contains:
+- Python MQTT publisher script  
+- Home Assistant YAML configuration  
+- Screenshots (if added)  
+- PDF summary  
+- Video link (if added)
 
-## Requirements
-- Python 3.x
-- paho-mqtt library (`pip install paho-mqtt`)
-- Mosquitto MQTT broker
-- Home Assistant
+---
 
-## Steps to Run
-1. Ensure Mosquitto broker is running.
-2. Update `mqtt_publish.py` with your register number.
-3. Run Python script: `python mqtt_publish.py`
-4. Configure Home Assistant to subscribe to MQTT topic: `home/sangeetha-2025/sensor`
-5. Observe live temperature values on the HA dashboard.
+## 📁 Files in Repository
 
+| File Name | Description |
+|----------|-------------|
+| `publisher.py` | Python script to publish temperature, humidity, and light intensity values via MQTT |
+| `configuration.yaml` | Home Assistant MQTT configuration for displaying the sensors |
+| `Nakshatra_Assignment_Summary_Sangeetha_42732041.pdf` | One-page assignment summary |
+| `README.md` | Documentation for the assignment |
+| `screenshots/` | Contains Home Assistant and MQTT Explorer screenshots (optional) |
+| `video/` | Contains or links to the final demo video (optional) |
 
+---
 
+## 🧪 Python → MQTT Publishing
+
+The Python script publishes:
+- Temperature = **25°C**
+- Humidity = **60%**
+- Light Intensity = **350 lx**  
+- Student Info:
+  - `student_name = "Sangeetha Kodadhala"`
+  - `unique_id = "42732041"`
+
+The message is sent as JSON format to the topic:  
+`home/sangeetha-2025/sensor`
+
+Run the script:
+
+```bash
+python3 publisher.py
