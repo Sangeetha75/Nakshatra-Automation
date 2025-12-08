@@ -26,8 +26,7 @@ This repository contains:
 | `configuration.yaml` | Home Assistant MQTT configuration for displaying the sensors |
 | `Nakshatra_Assignment_Summary_Sangeetha_42732041.pdf` | One-page assignment summary |
 | `README.md` | Documentation for the assignment |
-| `screenshots/` | Contains Home Assistant and MQTT Explorer screenshots (optional) |
-| `video/` | Contains or links to the final demo video (optional) |
+
 
 ---
 
@@ -48,3 +47,4 @@ Run the script:
 
 ```bash
 python3 publisher.py
+
